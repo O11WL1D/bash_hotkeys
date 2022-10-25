@@ -12,3 +12,28 @@ Any automated process that you may see in other parts of my github, such as the 
 programs located here. 
 
  
+
+
+
+# general log
+
+
+
+
+10-25-2022
+
+
+
+I really want to create a program creation wizard, which automatically adds the description of what each bash program
+does to the ww program, so that I dont have to go in manually every so often and add that description myself. Maybe even 
+creating a setup wizard which auto appends the path for easy setup would be nice too.
+
+
+
+-> it would also be nice to create a git u program creation wizard for different folders, such as for this one and what not.
+
+
+
+
+
+
