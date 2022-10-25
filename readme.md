@@ -33,6 +33,10 @@ creating a setup wizard which auto appends the path for easy setup would be nice
 -> it would also be nice to create a git u program creation wizard for different folders, such as for this one and what not.
 
 
+-> or U could be a universal update, which executes each update program, I think that is a super easy way to execute that :)
+
+
+
 
 
 
