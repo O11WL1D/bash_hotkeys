@@ -37,6 +37,17 @@ creating a setup wizard which auto appends the path for easy setup would be nice
 
 
 
+11:10
+
+
+-> for some strange reason, the u master update program will only work if the next update call is placed at the 
+end of the previous update program call. I have no explaination for this, thanks microsoft. 
+
+
+The end of the call list will be located in an echo comment in the u program. :)
+
+
+
 
 
 
