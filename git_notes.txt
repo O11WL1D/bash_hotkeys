@@ -1,0 +1,178 @@
+--git add .- 
+-indicates that you want to save your changes to the next commit, aka load changes into next snapshot
+
+- to make a new branch --
+git branch branch_name 
+
+to switch branches
+git checkout branch_name
+
+to create a new branch and switch to it
+git checkout -b branch_new
+
+
+!--disclaimer-!   It is much better to rely solely on github rather than a partial reliance, just for merge conflict prevention--complete code
+reliance
+
+!____!!!!  _> user name = O11WL1D, not OS11WL1D
+
+ORGIN URL =
+to update remote orgin  =
+
+git remote set-url orgin "urr url here"
+
+
+https://github.com/O11WL1D/    project.git
+
+TO PUSH CHANGES TO A GIT REPOSITORY 
+
+
+.4 if account email not configured, then config via
+git config --global user.email  "YORE MAIL ARRE HEREEE AAAAAAAA@gmail.com"
+
+
+
+
+.45 Add A author to your changes via 
+git config --global user.name "enter your name hre"
+
+
+
+
+
+0.5  - change the current working directory to your local repository
+
+
+
+
+.6 - initialize current directory as github reposo via 
+git init 
+#indicates that current directory is target for git operations.
+
+
+
+
+1. stage file for commit to local repository, aka add files to initalized local git repository, or saves modifyied version
+
+$ git add .
+# Adds the file to your local repository and stages it for commit -- basically modify local change index.
+# To unstage a file, use 'git reset HEAD YOUR-FILE'.
+
+// if a single period is provided as the arguement, then all files within the reposo is implyied, but can 
+get far more specific
+
+
+
+
+
+2. commit the file you added to local ropository
+
+$ git commit -m "Add existing file"
+# Commits the tracked changes and prepares them to be pushed to a remote repository.
+ To remove this commit and modify the file, use 'git reset --soft HEAD~1' and commit
+ and add the file again.
+
+
+
+3 push the changes to local repository  -- 
+
+
+$ git push origin your-branch
+# Pushes the changes in your local repository.
+
+
+
+4. push changes toward remote repository :
+    1. fst add the orgin,
+    $ git remote add origin https://github.com/user/repo.git
+    # Set a new remote
+    2. push changes to branch - git push (remotename) (branch name)
+       git push orgin master // pushes changes to main branch
+
+
+
+
+
+
+--------------------------------------------------------------
+
+      
+
+
+
+
+head -- in reference to the last modifyied commit. 
+
+master branch -- with git there is a variety of iterations of one project that 
+vary according to their intended purpose, allowing for non perminent collaberation
+on one project.
+ 
+Some branches may contain bug fixes while others new features, but the master branch
+is the main agreed upon base branch. 
+
+
+
+
+
+Create a new branch:
+git checkout -b feature_branch_name
+Edit, add and commit your files.
+Push your branch to the remote repository:
+git push -u origin feature_branch_name
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Push a branch and automatically set tracking
+$ git push -u origin master
+
+# pushes the "master" branch to "origin" remote and sets up tracking
+“Tracking” is essentially a link between a local and remote branch. 
+hen working on a local branch that tracks some other branch, you can git pull and git push 
+without any extra arguments and git will know what to do.
+
+However, git push will by default push all branches that have the same name on the remote. 
+To limit this behavior to just the current branch, set this configuration option:'
+
+
+
+
+
+
+git clone
+git fetch
+git merge
+git pull
+These commands are very useful when interacting with a remote
+ repository.clone and fetch download remote code from a repository's
+ remote URL to your local computer, merge is used to merge different 
+people's work together with yours, and pull is a combination of fetch 
+and merge.
+
+> when dealing with error "no such remote 'orgin'" 
+  - The above will only work if you've either cloned the repository or manually added a remote called origin.
+
+If "git remote -v" doesn't show you any remotes you can simply add a remote using:
+
+git remote add origin https://username@stash/scm/PROJECT/repo.git
+The name of the remote doesn't have to be "origin" and can be any name that makes it 
+easier for you to identify that particular remote (e.g. "stash").
+
+HTH,
+
+Stefan

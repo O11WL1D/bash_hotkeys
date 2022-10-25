@@ -1,0 +1,81 @@
+
+
+class p{
+static public void s(String input){ System.out.println(input); }
+
+static public void i(int input){  System.out.println(input);  }
+
+static public void d(double input){  System.out.println(input);  }
+  
+ 
+
+
+
+
+//--------quick access mega array function:
+//--------elements are returned in string form.
+
+
+
+
+
+public static String elementAt(int index,String subject,char separator,String r_value){
+//assuming that input string is preceded with a separator and ends with the sepatator.
+// adding in some code to change up the return value+seperating character. 	
+//
+
+int count=-2;
+int lastCommaIndex=0;
+for(int x=0;x<subject.length();x++){
+
+      
+      
+      if(subject.charAt(x)==separator){
+            count++;
+            
+            
+            if(count==index){
+              
+            return subject.substring(lastCommaIndex+1,x); 
+            }      
+            
+            
+      
+            
+            
+            lastCommaIndex=x;
+            }
+
+
+      
+      }    
+      
+      
+      return r_value;
+      }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+//------------------------------------multidimesional array cycling code:
+
+
+      for(int x=0;x<seatingChart.length;x++){
+            for(int y=0;y<seatingChart[0].length;y++){
+                       System.out.println(seatingChart[x][y]);     }}  
+
+
+
+

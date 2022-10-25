@@ -1,0 +1,26 @@
+c notes
+
+!-- The %s conversion specifier only reads the first string up untill a null terminator. cannot deal with multiple strings. --!
+
+!-----SUPER INPORTANT_____!!!
+Whenever the user presses on the enter key, the ascii value 10 is generated, or aka \n character. 
+This means you can check when the user has finished typing in input like an epic b0ss
+
+
+
+-- %s in scanf --> 
+Always stores a null character in addition to the recorded string, therefore when using %s with a call to the scanf function you
+should have an array the size of the string+1 as the passed argument
+
+
+The %x conversion specifier::
+indicates that you want a value printed off in hexadecimal
+
+usage   - %08x
+
+0 - indicates you want to pad with zeros and not whitespace
+8 - indicates number of spaces to left justify  -- minimum space to adjust for.
+
+
+
+printf("fuck you%08x",vari);

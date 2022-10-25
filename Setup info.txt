@@ -1,0 +1,252 @@
+> in bash, entering the webaddress of a website will pull up default browser and go to that site.
+
+> remember, everything has the potential to be simplifyied further, and when coding you should attempt in the very least to reduce your code
+down to a few meager statements. 
+ for instance, instaid of multiple if statements, one could put the return value and search value in a list and then put that in a loop 
+ and when search value is found return the position containing the return value, instaid of typing if() return over and over again. 
+
+
+>python path : C:\Python27
+
+
+
+> using setx, make sure cmd window is run as admin 
+   setx /M PATH "%PATH%;<your-new-path>"
+
+
+
+
+> if you try to preform multi-volume operations, you must change current working volume aka CWV
+by typing the name of said volume followed by a colon
+
+ie
+G:
+cd G:\desired\volume
+
+you cannot access desired volume if you were currently in a different volume
+
+
+
+
+
+
+
+
+> to overwrite a textfile with a command's output --" warning, will not display any echos/prompts produced by command"
+
+command.bat > text.txt
+
+
+
+
+> to display amount of files in a given directory --
+   dir /s 'folder-name' 
+
+
+
+
+
+
+> when using local varibles with the 
+ set /p =
+ function, they are stored for the duration of the cmd window's lifespan.
+ 
+ if you want more perminant varibles, go reach out to ur doctor
+
+
+
+
+rm -rf .git
+
+https://stackoverflow.com/questions/1514054/how-do-i-delete-a-local-repository-in-git/13662640
+
+> sliccing  python strings, :: 
+ the first number when slicing strings is inclusive, meaining that the value  located in that position  is 
+displayied, this number also marks the start of the range, and the last number mentioned is exclusive, meaning
+that it is not displayied, but marks the end of the range -  therefore the number before it is included.
+
+
+
+wait, nevermind, both numbers are exluded in ppython 2.7, only the numbers in between are included.
+
+
+>wan- is equal to public ip address. 
+
+-- a dump of python notes/thoughts
+
+Thoughts
+-- In the case that your code has logical errors, it might be best that you give it a review before compiling. 
+
+
+
+
+
+
+
+thoughts-
+is there any benifit of parsing code for bugs by hand or is it the most benificial by always doing it via compiler?  
+
+- I feel as if there is something that can be done to condense the check function while still filtering between the two data types...
+
+!-- could have made an object for each gpa that has its corrosponding letter and percentile grades and compared class object to that
+
+
+
+notes:
+//utilize comments when copy and pasting code,
+
+always plan program ahead, make it conceptually first then code it. 
+moreover, when developing a specific feature make sure to think about its interaction with other aspects of the program, made or not
+
+- when dealing with multiple items, put in list
+
+- To determine if a number is even or odd
+
+if num % 2 == 0:
+    pass # Even 
+else:
+    pass # Odd
+
+modulus
+
+
+
+a header file that automatically  contains code which asks for program parameters, 
+
+or a header file which makes certain resouces available depending on the set value of a varible. 
+
+addition to the assistant header file idea, the calling code could be written in said file and depending on the set options- perhaps in a list- execution will change.  This could be used to only call certain functions, such as a test function, or call the current code.  
+//perhaps build into code, the functionality of a computer
+
+
+
+
+ideas- 
+Implementing a seperate section with debugging code, that somehow detects each section and assigns output for each.
+- could be header file for accessablility
+
+
+challenges-
+Earlyier in the year I switched from using python anywhere to python 2.7 to avoid the issue of python anywhere putting me in the tar-pit, but appearantly  the syntax utilized by python 2.7 is different from either the python anywhere syntax or the general sytax adopted by python anywhere. 
+
+trying to use print("testing", '\n' ,"other text") does not work with python 2.7, 
+and printing anything with print("test","test") will output 'test','test'. instaid, the correct syntax is   "print "test" + "\n" + "test".
+
+
+
+
+
+> to recursively delete a directory and all of its files -- 
+
+sudo rm -r -f "directory name"
+
+
+
+
+
+
+
+
+
+
+
+
+-Anything saved as a 7zip archive will not be saved to, any revisions of a file need a new copy. 
+
+
+ -Basically, the bash equilavant to pythons red = input("ye")   
+ is Set /P Varname = Text that will be produced to prompt user input. 
+
+rem command 
+hel command 	
+xcopy /E Libraries\Music Libraries\Pictures
+move Libraries\Music hello
+rmdir /s /q C:\Users\Nak\hello
+
+
+good code --
+
+mkdir C:\Users\Nak\hello
+
+xcopy /E C:\Users\Nak\Music C:\Users\Nak\Pictures
+
+//the problem was that I copyied the path found under the librarys section of the file explorer, which gave a psudopath 
+instaid of the actual one I was loooking for which was located under computer, local disk ect ect 
+
+E:\A. laptop files
+
+
+command chkdsk  - /f fixes errors on disk/path specifyied 
+ 
+
+lp runas command 
+
+
+for command - run a specifyied command for each file in a set of files
+
+del /q C:\Users\Nak\Pictures\* 
+for /d %%x in (C:\Users\Nak\Pictures\*) do @rd /s /q "%%x" 
+
+
+
+
+to a p p e n d  a file with user input -> 
+  cat >> file.txt 
+  user input 
+  ctrl + d
+
+cest that easy 
+
+
+-to concatinate fiiles with cat command- linux 
+   cat file1.txt file2.txt > combined_file.txt
+
+// takes the two files and merges them into one of your specificyiing, seen with combined_file.txt
+
+cat file.txt file2.txt 
+This will just read both files in  output. 
+
+
+
+
+
+-to accept user input in windows -- 
+
+@echo off
+set /p id=Enter ID: 
+echo %id%
+jstack > jstack.txt
+
+basically its the set command with the /p arguement and var = "prompting string"
+
+
+
+
+
+-py - greater than or equal to  >=, and inverse <= 
+
+
+-With python 2.7, 
+
+trying to use print("testing", '\n' ,"other text") does not work with python 2.7, 
+and printing anything with print("test","test") will output 'test','test'. instaid,
+ the correct syntax is   "print "test" + "\n" + "test".
+
+
+@yeah
+
+- basically tells command to reduce output from command listed, or tells it to be less verbose. 
+ 
+
+From website : 
+The @ symbol tells the command processor to be less verbose; to only show the output of the command without 
+showing it being executed or any prompts associated with the execution. When used it is prepended to the beginning
+ of the command, it is not necessary to leave a space between the "@" and the command.
+
+When "echo" is set to "off" it is not necessary to use "@" because setting "echo" to "off" causes this behavior to
+ become automatic. "Echo" is usually set to "on" by default when the execution of a script begins. This is the reason 
+"@echo off" is commonly used, to turn echo off without displaying the act of turning it off.
+
+echo verbose
+@echo less verbose
+pause

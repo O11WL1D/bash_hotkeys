@@ -1,0 +1,1 @@
+7z is the general command invoker, for the console version of 7zip 
