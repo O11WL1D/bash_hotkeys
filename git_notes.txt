@@ -1,3 +1,28 @@
+git branch switching
+
+
+
+
+to discard local changes:
+
+git checkout -f branch
+
+
+example: if list was a branch:
+
+git checkout -f list
+
+
+
+
+
+
+
+
+
+
+
+
 --git add .- 
 -indicates that you want to save your changes to the next commit, aka load changes into next snapshot
 
