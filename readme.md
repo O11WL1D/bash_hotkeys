@@ -18,6 +18,12 @@ test.
 # general log
 
 
+12-15-2022
+
+This repository would be much easier to set up if I made the current user in each program an environmental variable
+which I could just change in the environmental variables menu. This kinda sucks lol
+
+
 
 
 10-25-2022
