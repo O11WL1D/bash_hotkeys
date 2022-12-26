@@ -1,2 +1,2 @@
-cd C:\Users\dudkr\Pictures\Ctrl
+cd C:\Users\%uuser%\Pictures\Ctrl
 python-notes.txt
