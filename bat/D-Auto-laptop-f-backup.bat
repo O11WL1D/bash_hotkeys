@@ -12,6 +12,33 @@ echo keys I use to encrypt my files all over the internet right?
 
 
 
+
+
+
+
+
+echo _------------------------WARNING<
+echo         do not use this program for regular backups, only for automated ones, 
+echo 	     the standard 7zip encryption functionality is far more reliable than 
+echo	     something which backs up onto an external drive. If the external drive
+echo 	     has mounting problems, this will interfere with the backup procress
+echo	     leading to an incomplete backup of your files. 
+echo 	     this program is meant to be only a failsafe for your files, not 
+echo	     a replacement for standard backup procedures. 	 		 	 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 echo --------LOCATE KEYS IN CONSTANT DESKTOP FILE-----------------------
 
 
