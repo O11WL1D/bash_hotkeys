@@ -17,6 +17,19 @@ test.
 
 # general log
 
+12-26-2022
+
+THATS IT, Ive had enough of this terribly implemented set of programs!
+It takes too long to set up these batch hotkeys for a new computer, 
+
+im changing the programs to read an environmental variable uuser to read 
+the current user instead of needing to change that anytime I need to setup on a 
+new system with a different user value.
+
+
+
+
+
 
 12-15-2022
 
