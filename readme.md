@@ -27,6 +27,10 @@ the current user instead of needing to change that anytime I need to setup on a
 new system with a different user value.
 
 
+12:26 pm
+
+alright its all fixed now ☺
+
 
 
 
