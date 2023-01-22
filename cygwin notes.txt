@@ -1,6 +1,9 @@
 
 remove prev instance of la1.c , and produce new one.
 
-↓
-rm la1.c ; nano la1.c
 
+
+
+
+
+gcc la1.c -o la1 ; ./la1 
