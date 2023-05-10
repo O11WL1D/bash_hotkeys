@@ -17,6 +17,22 @@ test.
 
 # general log
 
+
+5/10/2023
+
+now that I have finished up the semester and have a little time to myself, I think I'll try to get some work done on the 16 bit processor. 
+
+unfortunately, I've come to find out that windows 11 has changed the default path from 
+
+C:/users/dudkr/Pictures
+
+to C:\Users\dudkr\OneDrive\Pictures\ctrl\bat
+
+this sucks, this might mean that I need to make a windows 11 version for my bat commands.
+
+
+
+
 12-26-2022
 
 THATS IT, Ive had enough of this terribly implemented set of programs!
