@@ -1,4 +1,6 @@
 
+cd C:\"Program Files"\Google\Chrome\Application
 
-start C:\Users\%uuser%\AppData\Local\Google\Chrome\Application\chrome.exe
+
+chrome.exe
 exit
