@@ -18,6 +18,18 @@ git checkout -f list
 
 
 
+$ git remote add origin git@github.com:username/new_repo
+$ git push -u origin master
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -167,7 +179,7 @@ Push a branch and automatically set tracking
 $ git push -u origin master
 
 # pushes the "master" branch to "origin" remote and sets up tracking
-“Tracking” is essentially a link between a local and remote branch. 
+ Tracking  is essentially a link between a local and remote branch. 
 hen working on a local branch that tracks some other branch, you can git pull and git push 
 without any extra arguments and git will know what to do.
 

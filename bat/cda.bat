@@ -1,0 +1,1 @@
+%SystemRoot%\explorer.exe "C:\Users\dudkr\OneDrive\Desktop\pointers\pointerA"
